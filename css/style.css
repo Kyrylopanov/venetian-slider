@@ -24,51 +24,81 @@ figure.alternative img.second { transform: rotateY(0deg) translateZ(1px);  }
 
 
 figure img:nth-child(1), figure img:nth-child(11) { 
-  clip: rect(0px, 100px, 840px, 0px);
-  transform-origin: 50px 0px;
+    clip: rect(0px, 100px, 840px, 0px);
+    transform-origin: 50px 0px;
+    -ms-transform-origin: 50px 0px;
+    -webkit-transform-origin: 50px 0px;
 }
 figure img:nth-child(2), figure img:nth-child(12) {
-  clip: rect(0px, 200px, 840px, 100px);
-  transform-origin: 150px 0px;
-  transition-delay: 100ms;
+    clip: rect(0px, 200px, 840px, 100px);
+    transform-origin: 150px 0px;
+    -ms-transform-origin: 150px 0px;
+    -webkit-transform-origin: 150px 0px;
+    transition-delay: 100ms;
+    -webkit-transition-delay: 100ms;
+    
 }
 figure img:nth-child(3), figure img:nth-child(13) {
-  clip: rect(0px, 300px, 840px, 200px);
-  transform-origin: 250px 0px;
-  transition-delay: 200ms;  
+    clip: rect(0px, 300px, 840px, 200px);
+    transform-origin: 250px 0px;
+    -ms-transform-origin: 250px 0px;
+    -webkit-transform-origin: 250px 0px;
+    transition-delay: 200ms;
+    -webkit-transition-delay: 200ms; 
 }
 figure img:nth-child(4), figure img:nth-child(14) {
-  clip: rect(0px, 400px, 840px, 300px);
-  transform-origin: 350px 0px;
-  transition-delay: 300ms; 
+    clip: rect(0px, 400px, 840px, 300px);
+    transform-origin: 350px 0px;
+    -ms-transform-origin: 350px 0px;
+    -webkit-transform-origin: 350px 0px;
+    transition-delay: 300ms; 
+    -webkit-transition-delay: 300ms; 
 }
 figure img:nth-child(5), figure img:nth-child(15) {
-  clip: rect(0px, 500px, 840px, 400px);
-  transform-origin: 450px 0px;
-  transition-delay: 400ms;
+    clip: rect(0px, 500px, 840px, 400px);
+    transform-origin: 450px 0px;
+    -ms-transform-origin: 450px 0px;
+    -webkit-transform-origin: 450px 0px;
+    transition-delay: 400ms;
+    -webkit-transition-delay: 400ms;
 }
 figure img:nth-child(6), figure img:nth-child(16) {
-  clip: rect(0px, 600px, 840px, 500px);
-  transform-origin: 550px 0px;
-  transition-delay: 500ms; 
+    clip: rect(0px, 600px, 840px, 500px);
+    transform-origin: 550px 0px;
+    -ms-transform-origin: 550px 0px;
+    -webkit-transform-origin: 550px 0px;
+    transition-delay: 500ms;
+    -webkit-transition-delay: 500ms;
 }
 figure img:nth-child(7), figure img:nth-child(17) {
-  clip: rect(0px, 700px, 840px, 600px);
-  transform-origin: 650px 0px;
-  transition-delay: 600ms;
+    clip: rect(0px, 700px, 840px, 600px);
+    transform-origin: 650px 0px;
+    -ms-transform-origin: 650px 0px;
+    -webkit-transform-origin: 650px 0px;
+    transition-delay: 600ms;
+    -webkit-transition-delay: 600ms;
 }
 figure img:nth-child(8), figure img:nth-child(18) {
-  clip: rect(0px, 800px, 840px, 700px);
-  transform-origin: 750px 0px;
-  transition-delay: 700ms;
+    clip: rect(0px, 800px, 840px, 700px);
+    transform-origin: 750px 0px;
+    -ms-transform-origin: 750px 0px;
+    -webkit-transform-origin: 750px 0px;
+    transition-delay: 700ms;
+    -webkit-transition-delay: 700ms;
 }
 figure img:nth-child(9), figure img:nth-child(19) {
-  clip: rect(0px, 900px, 840px, 800px);
-  transform-origin: 850px 0px;
-  transition-delay: 800ms; 
+    clip: rect(0px, 900px, 840px, 800px);
+    transform-origin: 850px 0px;
+    -ms-transform-origin: 850px 0px;
+    -webkit-transform-origin: 850px 0px;
+    transition-delay: 800ms;
+    -webkit-transition-delay: 800ms;
 }
 figure img:nth-child(10), figure img:nth-child(20) {
-  clip: rect(0px, 1000px, 840px, 900px);
-  transform-origin: 950px 0px;
-  transition-delay: 900ms;  
+    clip: rect(0px, 1000px, 840px, 900px);
+    transform-origin: 950px 0px;
+    -ms-transform-origin: 950px 0px;
+    -webkit-transform-origin: 950px 0px;
+    transition-delay: 900ms;
+    -webkit-transition-delay: 900ms;
 }
