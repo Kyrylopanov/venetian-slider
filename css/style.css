@@ -1,12 +1,13 @@
 body { margin: 0; }
 
+.container-baner { overflow: hidden; }
 figure { 
   margin: 0;
   position: relative;
-  perspective: 1800px;
+  perspective: 1000px;
   transform-style: preserve-3d;
-  max-width: 1000px; 
-  padding-bottom: 56.25%; 
+  max-width: 800px; 
+  padding-bottom: 55%; 
 }
 figure img { 
   top: 0;
@@ -20,8 +21,7 @@ figure img.first { transform: rotateY(0deg); }
 figure img.second { transform: rotateY(-180deg) translateZ(1px); } 
 
 figure.alternative img.first { transform: rotateY(180deg);  } 
-figure.alternative img.second { transform: rotateY(0deg) translateZ(1px);  } 
-
+figure.alternative img.second { transform: rotateY(0deg) translateZ(1px);  }
 
 figure img:nth-child(1), figure img:nth-child(11) { 
     clip: rect(0px, 100px, 840px, 0px);
@@ -102,3 +102,4 @@ figure img:nth-child(10), figure img:nth-child(20) {
     transition-delay: 900ms;
     -webkit-transition-delay: 900ms;
 }
+
